@@ -72,7 +72,7 @@ Expected Output :
 
 '''
 
-import pandas as pd
+import pandas as pd # type: ignore
 
 def filter_high_rated_expensive(df):
     filtered_df = df[
